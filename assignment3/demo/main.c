@@ -7,14 +7,13 @@ int main()
     printf("the number you enterd is %d and %d",a,b);
    printf("\nthe value is printed");
     printf("\nHello Function is executed");
-    add(8,9);
+    add(a,b);
    printf("\nadd Function is executed");
-    subtract(9,8);
+    subtract(a,b);
   printf("\nsubtract function is executed");
-   multiplication(2,2);
+   multiplication(a,b);
    printf("\nMultiplication function is executed");
-   division(10,5);
+   division(a,b);
   printf("\nDivision function is executed");
    printf("\nThe program is ended");
-
  }
