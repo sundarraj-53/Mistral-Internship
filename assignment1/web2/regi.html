@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="r.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registeration Form</title>
+     <script src="script.js"></script>
+    <link rel="stylesheet" href="regi1.css">
+   </head>
+<body>
+  <div id="start">
+    <div id="logo">
+        <span>
+            <img src="https://www.mathworks.com/academia/tah-portal/national-engineering-college-40663616/_jcr_content/schoolLogo.adapt.full.medium.png/1592481776500.png" width="60px"></img>
+        </span>
+    </div>
+    <div id="Head">
+        <span>
+            <h1>National Engineering College</h1>
+        </span>
+    </div>
+</div>
+<div>
+   <ul id="navbar">
+    <li><a href="index.html">Home</li></a>
+    <li><a href="https://karthickveekay.github.io/event/">Events</li></a>
+    <li><a href="regi.html">Register</li></a>
+    <li><a href="https://karthickveekay.github.io/contactpage/">contact</a>
+      <!-- <div id="dd">
+      <ul>
+        <li><a href="#">Phone_no</a></li>
+        <li><a href="#">Mail_id</a></li>
+      </ul>
+      </div> -->
+    </li>
+  </ul>
+</div> 
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form id="form"  Method="post" action="action.php" onsubmit="return validateform()">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" name="form1" placeholder="Enter your First name">
+          </div>
+          <div class="input-box">
+            <span class="details1" id="details1">Last name</span>
+            <input type="text" name="form2" placeholder="Enter your Last name" >
+          </div>
+          <div class="input-box">
+            <span class="details2" id="details2">Email</span>
+            <input type="text" name="form3"placeholder="Enter your email" >
+          </div>
+          <div class="input-box">
+            <span class="details3" id="details3">Phone Number</span>
+            <input type="number" name="form4"placeholder="Enter your number" >
+          </div>
+          <div class="input-box">
+            <span class="details4" id="details4">Year of Passout</span>
+            <input type="Date" name="form5"placeholder="Date">
+          </div>
+          <div class="input-box">
+            <span class="details5" id="details5">Department</span>
+            <input type="text" name="form6" placeholder="Department">
+          </div>
+        </div>
+        <div class="gender-details" id="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" button onclick="submitform()" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
